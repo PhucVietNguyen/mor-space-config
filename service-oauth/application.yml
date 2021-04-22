@@ -4,7 +4,7 @@ server:
   port: 8100
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=netflix_db
+    url: jdbc:postgresql://localhost:5432/postgres
 #    name: auth_service
     username: postgres
     password: anhphuc1996
@@ -27,5 +27,6 @@ spring:
       hibernate.generate_statistics: false
       hibernate.cache.region.factory_class: org.hibernate.cache.internal.NoCachingRegionFactory
       hibernate.jdbc.lob.non_contextual_creation: true
+      hibernate.default_schema: netflix_db
 check-user-scopes: false
 signing-key: ewjk@837@$#^.8$
