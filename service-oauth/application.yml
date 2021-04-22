@@ -4,7 +4,7 @@ server:
   port: 8100
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=db_auth
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=db_auth1
     name: auth_service
     username: postgres
     password: anhphuc1996
