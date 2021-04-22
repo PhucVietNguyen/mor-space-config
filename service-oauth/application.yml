@@ -4,8 +4,8 @@ server:
   port: 8100
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=db_auth
-    name: auth_service
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=netflix_db
+#    name: auth_service
     username: postgres
     password: anhphuc1996
     driver-class-name: org.postgresql.Driver
